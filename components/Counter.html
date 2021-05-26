@@ -1,0 +1,21 @@
+<!-- Default data -->
+<script>
+  export default {
+    data () {
+      return {
+        count: 0,
+      };
+    }
+  };
+</script>
+
+<p>Count: {count}</p>
+<button on:click='set({ count: count + 1 })'>+1</button>
+
+
+<!-- Include styles -->
+<style>
+  p, button {
+    font-family: Lato;
+  }
+</style>
